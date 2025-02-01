@@ -1,0 +1,30 @@
+{
+  "name": "demo-pwa-next14",
+  "short_name": "pwademo",
+  "start_url": "/",
+  "display": "standalone",
+  "id": "demo-pwa-next14",
+  "icons": [
+    {
+      "src": "icons/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "icons/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ]
+}
