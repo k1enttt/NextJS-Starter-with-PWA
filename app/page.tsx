@@ -3,11 +3,12 @@ import Image from "next/image";
 
 export default function Home() {
   const openInBrowser = (url: string) => {
-    if (window.matchMedia("(display-mode: standalone)").matches) {
-      window.location.href = url;
-    } else {
-      window.open(url, "_blank", "noopener,noreferrer");
-    }
+    // if (window.matchMedia("(display-mode: standalone)").matches) {
+    //   window.location.href = url;
+    // } else {
+    //   window.open(url, "_blank", "noopener,noreferrer");
+    // }
+    window.location.href = url;
   };
 
   return (
